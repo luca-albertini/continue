@@ -1,0 +1,150 @@
+/* GLOBALES */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: none;
+}
+
+body {
+    font-size: 16px;/* 1rem = 10px */
+    font-family: 'Kollektif', sans-serif;
+    color: #fff;
+    background-color: #333
+    ;
+
+}
+
+#grilla{
+    width: 100vw;
+    height: 100;
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 13% 19% 60% 8%;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "ropa ropa ropa"
+    "footer footer footer";
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+
+/* HEADER */
+
+header{
+    grid-area: header;
+    
+}
+.contenedor{
+    width: 95%;
+    height: 100px;
+    max-width: 2000px;
+    margin: auto;
+    overflow:hidden;
+    margin-right: 20px;
+    margin-left: 18px;
+
+    
+}
+
+.menu-navegacion{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: #634e42;
+}
+
+.logo{
+    width: 300px; 
+    height: 200px;
+}
+
+.logo img{
+    display: block;
+    height: 100%;
+}
+.enlaces li{
+    list-style: none;
+    display: inline-block;
+}
+.enlaces a{
+    text-decoration: none;
+    color: black;
+}
+
+.flexsearch{
+    align-items: center;
+    
+    
+}
+
+
+
+/* MAIN */
+
+main{
+    grid-area: main;
+    height: 1000px;
+}
+.contenedor-main{
+    max-width: 120rem;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    position: 50px;
+    height: 1000px;
+
+}
+td{
+    justify-items: center;
+    font-size: 35px;
+    align-items: center;
+}
+.ropa{
+    grid-area: ropa;
+    align-items:flex-start;   
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.article{text-justify: distribute;}
+
+
+html{
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+/* TIPOGRAFIAS */
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: #fff;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+
+footer{
+    grid-area: footer;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
