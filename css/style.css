@@ -103,6 +103,7 @@ td{
     justify-items: center;
     font-size: 35px;
     align-items: center;
+    text-align: center;
 }
 .ropa{
     grid-area: ropa;
@@ -113,6 +114,7 @@ td{
 }
 
 .article{text-justify: distribute;}
+
 
 
 html{
