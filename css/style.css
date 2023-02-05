@@ -177,7 +177,7 @@ h1,h2,h3 {
     text-align: center;
 }
 
-
+/*FOOTER*/
 footer{
     align-items: flex-end;
     grid-area: footer;
@@ -186,4 +186,43 @@ footer{
     height: 50px;
     line-height: 50px;
     
+}
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #634e42;
+    margin-top: 40px;
+
+}
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: #333;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.conteiner-footer h3{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 100px;
 }
