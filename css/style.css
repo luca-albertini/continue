@@ -112,6 +112,9 @@ td{
     display:flex;
     flex-wrap: wrap;
 }
+.ropa img{
+    border-radius: 20px;
+}
 
 .article{text-justify: distribute;}
 
