@@ -122,6 +122,49 @@ html{
     margin-left: 18px;
 }
 
+/* CATALOGO */
+.Catalogo{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+/*align-items:*/ ;
+/*justify-content: space-between;*/
+
+
+}
+
+.caja{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    text-align: center;
+    line-height: 60px; 
+    margin: 10px;
+
+}
+
+.caja1{
+
+}
+.caja2{
+
+}
+.caja3{
+
+}
+.caja4{
+    
+}
+.caja5{
+
+}
+.caja6{
+
+}
+
+
+
 /* TIPOGRAFIAS */
 h1 {
     font-size: 3.8rem;
