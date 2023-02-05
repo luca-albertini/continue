@@ -179,7 +179,7 @@ h1,h2,h3 {
 
 footer{
     align-items: flex-end;
-    grid-area: footer;
+    grid-area: 4;
     color: #fff;
     text-align: center;
     height: 50px;
