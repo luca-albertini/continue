@@ -39,7 +39,7 @@ header{
     padding: 30px;
     display: flex;
 }
-.contenedor-main{
+.contenedor{
     width: 95%;
     height: 100px;
     max-width: 2000px;
