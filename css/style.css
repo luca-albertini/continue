@@ -102,7 +102,7 @@ main{
     position: 50px;
     height: 1000px;
     flex-direction: column;
-
+    justify-content: center;
 
 }
 td{
