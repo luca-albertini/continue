@@ -47,6 +47,8 @@ header{
     overflow:hidden;
     margin-right: 20px;
     margin-left: 18px;
+
+    
 }
 
 .menu-navegacion{
@@ -78,8 +80,7 @@ header{
 
 .flexsearch{
     align-items: center;
-    width: 100px;
-    height: 35px;
+    
     
 }
 
@@ -93,7 +94,7 @@ main{
 }
 .contenedor-main{
     max-width: 120rem;
-    margin-top: 30px;
+    margin: 0 auto;
     align-items: center;
     text-align: center;
     position: 50px;
@@ -105,10 +106,6 @@ td{
     font-size: 35px;
     align-items: center;
     text-align: center;
-}
-table{
-    flex-wrap: wrap;
-    display: flex;
 }
 .ropa{
     grid-area: ropa;
@@ -202,4 +199,4 @@ footer{
     height: 50px;
     line-height: 50px;
     
-}
+}}
