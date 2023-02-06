@@ -80,7 +80,8 @@ header{
 
 .flexsearch{
     align-items: center;
-    
+    width: 100px;
+    height: 35px;
     
 }
 
