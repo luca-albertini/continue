@@ -12,8 +12,8 @@ body {
     font-size: 16px;/* 1rem = 10px */
     font-family: 'Kollektif', sans-serif;
     color: #fff;
-    background-color: #333
-    ;
+    background-color: #333;
+    flex-direction: column;
 
 }
 
@@ -91,6 +91,8 @@ header{
 main{
     grid-area: main;
     height: 1000px;
+    flex-direction: column;
+
 }
 .contenedor-main{
     max-width: 120rem;
@@ -99,6 +101,8 @@ main{
     text-align: center;
     position: 50px;
     height: 1000px;
+    flex-direction: column;
+
 
 }
 td{
