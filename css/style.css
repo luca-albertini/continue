@@ -13,8 +13,6 @@ body {
     font-family: 'Kollektif', sans-serif;
     color: #fff;
     background-color: #333;
-    flex-direction: column;
-
 }
 
 #grilla{
@@ -105,9 +103,8 @@ main{
 
 }
 td{
-    justify-items: center;
     font-size: 35px;
-    align-items: center;
+    vertical-align: center;
     text-align: center;
 }
 .ropa{
@@ -116,6 +113,7 @@ td{
     justify-content: center;
     display:flex;
     flex-wrap: wrap;
+    align-items: center
 }
 .ropa img{
     border-radius: 20px;
@@ -202,4 +200,4 @@ footer{
     height: 50px;
     line-height: 50px;
     
-}}
+}
