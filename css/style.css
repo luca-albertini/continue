@@ -37,7 +37,7 @@ body {
 header{
     grid-area: header;
     padding: 30px;
-
+    display: flex;
 }
 .contenedor{
     width: 95%;
@@ -65,7 +65,7 @@ header{
 }
 
 .logo img{
-    display: block;
+    display: flex;
     height: 100%;
 }
 .enlaces li{
@@ -75,6 +75,7 @@ header{
 .enlaces a{
     text-decoration: none;
     color: white;
+    padding-right: 8px;
 }
 
 .flexsearch{
@@ -164,9 +165,19 @@ font-size: 3rem;
 
 }
 
-/* RESPONSIVE*/
+/* RESPONSIVE */
+
+
 @media screen and (max-width: 720px){
 
+    header{
+        flex-direction: column;
+    }
+
+    .enlaces li{
+        padding: 10px 0px;
+    }
+    /*
     .menu nav{
         position: fixed;
         top: 0;
@@ -232,6 +243,10 @@ font-size: 3rem;
         background: rgba(255, 255, 255, 0.2);
     }
 }
+*/
+
+
+
 /* TIPOGRAFIAS */
 h1 {
     font-size: 3.8rem;
