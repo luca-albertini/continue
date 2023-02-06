@@ -106,6 +106,10 @@ td{
     align-items: center;
     text-align: center;
 }
+table{
+    flex-wrap: wrap;
+    display: flex;
+}
 .ropa{
     grid-area: ropa;
     align-items:flex-start;   
