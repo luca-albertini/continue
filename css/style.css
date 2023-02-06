@@ -109,6 +109,20 @@ justify-content: center;
 .ropa img{
     border-radius: 20px;
 }
+.ropa .caja img{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+.ropa .caja{
+    margin: 15px;
+}
+
+.ropa .caja p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:400;
+}
 
 .article{text-justify: distribute;}
 
