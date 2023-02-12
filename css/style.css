@@ -93,7 +93,7 @@ main{
 }
 td{
     font-size: 35px;
-    vertical-align: center;
+    vertical-align:auto;
     text-align: center;
 }
 .ropa{
