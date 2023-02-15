@@ -99,7 +99,7 @@ td{
 .ropa{
     width: 100%;
     height: 900px;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
 }
