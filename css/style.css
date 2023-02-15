@@ -96,11 +96,11 @@ td{
     vertical-align:auto;
     text-align: center;
 }
-.ropa table{
+.ropa{
     width: 100%;
     height: 900px;
     display: grid;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     justify-content: center;
 }
 .ropa img{
